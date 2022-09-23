@@ -7,7 +7,7 @@ public class Main {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter maximum number of spaces available to store computers: ");
         int maxSpaces = input.nextInt();
-        Shelf shelf = new Shelf(input.nextInt());
+        Shelf shelf = new Shelf(maxSpaces);
         System.out.println("Enter number of computers to store : ");
         int numberOfComputers = input.nextInt();
         for (int storedComputers = 0; storedComputers < numberOfComputers; storedComputers++) {

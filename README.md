@@ -1,5 +1,8 @@
-# warehouse-management-1
+# ***warehouse-management-1***
 
-This project ...
+If there is a shop that sells computers, every time a customer wants to know which computers are available, you have to check your warehouse manually,
+it's hard to check evrytime, so instead of this **Java console application** will help to work smartly  for checking which devices are available and their specifications.
 
-![some alternative text](images/image-1.png "text on mouse over")
+## *Output is as follows:*
+
+![some alternative text](images/output.png "text on mouse over")
