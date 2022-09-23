@@ -5,4 +5,3 @@ it's hard to check evrytime, so instead of this **Java console application** wil
 
 ## *Output is as follows:*
 ![](images/output.PNG)
-S
