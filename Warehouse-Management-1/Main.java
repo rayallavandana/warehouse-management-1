@@ -11,7 +11,7 @@ public class Main {
         System.out.println("Enter number of computers to store : ");
         int numberOfComputers = input.nextInt();
         for (int storedComputers = 0; storedComputers < numberOfComputers; storedComputers++) {
-            Computers computer = new Computers();
+            Computer computer = new Computer();
             System.out.println("enter the BrandName : ");
             computer.setBrandName(input.next());
             System.out.println("Enter the Model Name : ");

@@ -3,23 +3,24 @@ package rit.sse.ptp;
 import java.util.Arrays;
 
 public class Shelf {
-    private Computers[] computerArray;
+    private Computer[] Computers;
+
 
     public Shelf(int maxSpaces) {
-        computerArray = new Computers[maxSpaces];
+        Computers = new Computer[maxSpaces];
     }
 
-    public void add(int position, Computers computer) {
-        this.computerArray[position] = computer;
+    public void add(int position, Computer Computers) {
+        this.Computers[position] = Computers;
     }
 
-    public Computers getComputerAtPosition(int position) {
-        return this.computerArray[position];
+    public Computer getComputerAtPosition(int position) {
+        return this.Computers[position];
     }
 
     public void displayComputers() {
-        for (int currentComputer = 0; currentComputer < computerArray.length; currentComputer++) {
-            if (computerArray[currentComputer] != null) {
+        for (int currentComputer = 0; currentComputer < Computers.length; currentComputer++) {
+            if (Computers[currentComputer] != null) {
                 System.out.println("position :" + " " + currentComputer + " " + getComputerAtPosition(currentComputer));
                 System.out.println();
             } else {
