@@ -5,4 +5,4 @@ it's hard to check evrytime, so instead of this **Java console application** wil
 
 ## *Output is as follows:*
 
-![some alternative text](images/output.png "text on mouse over")
+![some alternative text](images/output.png)
