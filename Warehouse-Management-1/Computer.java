@@ -1,6 +1,6 @@
 package rit.sse.ptp;
 
-public class Computers {
+public class Computer {
     private String brandName;
     private String modelName;
     private int hardDriveCapacity;
